@@ -8,12 +8,17 @@ body {
     
 }
 .logo {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 30px;
 }
 .hero {
-    margin-top: 20px;
+    margin-top: 25px;
 }
+
+.hero2 {
+    display: none;
+}
+
 .intro {
     margin-top: 30px;
     text-align: center;
@@ -66,4 +71,72 @@ button {
     margin-top: 10px;
     margin-left: -35px;
     border-width: thin;
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        margin-top: 30px;
+        margin-left: 100px;
+        display: inline;
+        
+    }
+    .intro {
+        text-align: left;
+        margin-top: 110px;
+    margin-left: 100px;
+    font-size: 3.5rem;
+    font-weight: 50;
+    letter-spacing: 25px;
+    line-height: 60px;
+    color: rgb(163, 97, 119);
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    .description {
+        text-align: left;
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+        letter-spacing: 0.9px;
+        font-size: 14px;
+        color:rgb(136, 104, 136);
+        line-height: 23px;
+        font-weight: 200;
+    }
+    .mail{
+        margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    height: 3rem;
+    width: 350px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border-color:rgb(233, 199, 195) ;
+    border-width: thin 0.4px;
+    background-color: rgb(248, 241, 247); ;
+    }
+    button { 
+        background-color:rgb(248, 146, 139);
+    color: white;
+    height: 3.2rem;
+    width: 90px;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-left: -75px;
+    border-width: thin;
+    }
+    
+    
+    .hero {
+        display: none;
+        }
+    .hero2 {
+        display: block;
+        float: right;
+        width: 40%;
+    }
+    .left {
+        float: left;
+        width: 60%;
+    }    
 }
